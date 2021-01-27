@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Popins', sans-serif;
+}
+
+
+/* LISTFILM */
+
+/* #listFilm{
+    margin-top: 70px;
+}
+
+.nav-tabs.navCenter {
+    text-align: center;
+    border: none;
+    margin-bottom: 30px;
+    padding-left: 410px;
+}
+
+.nav-tabs.navCenter li {
+    margin-right: 5px;
+}
+
+#listFilm .navCenter li.active a{
+   font-size: 24px;
+   color: #fa5238;
+   transition: all .2s;
+    cursor: pointer;
+}
+
+#listFilm .navCenter a{
+    line-height: 24px;
+    height: 24px;
+ }
+
+ .nav-tabs.navCenter li a {
+    color: #000;
+    transition: all .2s;
+    cursor: pointer;
+    font-weight: 550;
+    font-size: 20px;
+ }
+
+#listFilm .titleInfo{
+    line-height: 15px;
+    text-align: left;
+}
+
+.titleInfo span{
+    background-color: #fb4226;
+    color: #fff;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin-right: 5px;
+    font-size: 12px;
+    min-width: 33px;
+}
+
+.filmName{
+    height: 42px;
+    max-height: 42px;
+    font-family: 'SF Medium';
+    font-size: 19px;
+    color: #000;
+    line-height: 23px;
+    margin-bottom: 0;
+    max-width: 230px;
+}
+
+.Filminfo{
+    line-height: 30px;
+    float: left;
+    margin: 10px 0;
+}
+
+.img-fluid{
+    border-radius: 3px;
+}
+
+#listFilm .col-sm-6{
+    width: 250px;
+    margin-left: 35px;
+}
+
+.slick-prev{
+    width: 50px;
+    height: 100px;
+    background-image: url('./../image/back-session.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    opacity: .5;
+    top: 45%;
+    transform: translateY(-50%);
+}
+
+.slick-next{
+    width: 50px;
+    height: 100px;
+    background-image: url('./../image/back-session.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    opacity: .5;
+    top: 45%;
+    transform: translateY(-50%);
+} */
+
+
+/* GRAYBACK */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#main__grayback .listGrayCinema{
+    min-height: 705px;
+    width: 112%;
+    border: 1px solid #ebebec;
+}
+
+#main__grayback .listGrayCinema img{
+    width: 50px;
+    height: 50px;
+}
+
+#main__grayback .liCinema.active{
+    padding: 18px;
+    opacity: 1;
+    position: relative;
+    display: flex;
+}
+
+#main__grayback .liCinema.active::after{
+    content: '';
+    position: absolute;
+    bottom: 24px;
+    width: 80%;
+    left: 46px;
+    transform: translateX(-50%);
+    border-bottom: 1px solid #fff;
+    border-color: rgba(238,238,238,.88);
+}
+
+#main__grayback .liCinema1.active{
+    padding: 18px;
+    opacity: 1;
+    position: relative;
+    display: flex;
+}
+
+#main__grayback .liCinema1.active::after{
+    content: '';
+    position: absolute;
+    bottom: 24px;
+    width: 80%;
+    left: 138px;
+    transform: translateX(-50%);
+    border-bottom: 1px solid #fff;
+    border-color: rgba(238,238,238,.88);
+}
+
+#main__grayback .liCinema1{
+    padding: 18px;
+    opacity: .5;
+    position: relative;
+    display: flex;
+}
+
+#main__grayback .liCinema1::after{
+    content: '';
+    position: absolute;
+    bottom: 24px;
+    width: 80%;
+    left: 138px;
+    transform: translateX(-50%);
+    border-bottom: 1px solid #fff;
+    border-color: rgba(238,238,238,.88);
+}
+
+#main__grayback .liCinema{
+    padding: 18px;
+    opacity: .5;
+    position: relative;
+    display: flex;
+}
+
+#main__grayback .liCinema::after{
+    content: '';
+    position: absolute;
+    bottom: 24px;
+    width: 80%;
+    left: 46px;
+    transform: translateX(-50%);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.767);
+    border-color: rgba(238, 238, 238, 0.685);
+}
+
+.color__title{
+    color:green;
+}
+
+.address{
+    font-size: 12px;
+    color: #949494;
+}
+
+.moreInfo{
+    font-size: 12px;
+    color: #fb4226;
+}
+
+.gray__info{
+    padding-top: 5px;
+    line-height: 4px;
+    padding-left: 10px;
+}
+
+.titleInfo{
+    padding: 17px;
+    line-height: 15px;
+}
+
+.movieTitle{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    overflow: hidden;
+    margin: initial;
+}
+
+.titleInfo span{
+    background-color: #fb4226;
+    color: #fff;
+    border-radius: 4px;
+    padding: 2px 5px;
+    margin-right: 5px;
+    font-size: 12px;
+    min-width: 33px;
+    float: left;
+}
+
+.info{
+    line-height: 30px;
+    font-size: 12px;
+    color: #9b9b9b;
+}
+
+.version{
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.session a{
+    text-decoration: none;
+    color: #9b9b9b;
+    padding: 0.5rem 0.8rem;
+    background-color: #fbfbfb;
+    margin: 0 10px 10px 0;
+    border-radius: 7px;
+    border: 1px solid #9b9b9b;
+}
+
+.session a span{
+    font-size: 18px;
+    color: #108f3e;
+    font-weight: 600;
+}
+
+.big-details{
+    margin-bottom: 70px;
+}
+
+#v-pills-bhd-cinema-1{
+    overflow: auto;
+    height: 703px;
+    width: 100%;
+    padding-left: 30px;
+}
+
+.img{
+    margin-top: 12px;
+}
+
+/* APP */
+
+#app__block{
+    margin-top: 70px;
+}
+
+#home__app{
+    background-image: url('./../image/backapp.jpg');
+    background-size: contain;
+    width: 100%;
+    height: 640px;
+}
+
+#home__app .text__left__top{
+    font-size: 38px;
+    color: #fff;
+    font-weight: 700;
+}
+
+#home__app .text__left__bottom{
+    font-size: 18px;
+    color: #fff;
+}
+
+#home__app .button__left button{
+    background-color: #fb4226;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: medium;
+    font-weight: 700;
+    border: none;
+    border-radius: 4px;
+}
+
+#home__app .text__bottom{
+    display: flex;
+    padding-top: 15px;
+    color: #fff;
+}
+
+#home__app .text__bottom p{
+   padding-right: 5px;
+}
+
+#home__app .tagA{
+    padding-right: 5px;
+    color: #fff;
+    position: relative;
+    text-decoration: none;
+}
+
+#home__app .tagA::after{
+    content: '';
+    position: absolute;
+    border-bottom: 2px solid #fff;
+    width: 93%;
+    bottom: 15px;
+    left: -1px;
+}
+
+.row{
+    margin: 0;
+    padding-top: 170px;
+}
+
+#home__app .left{
+    float: left;
+}
+
+#home__app .right{
+    float: right;
+    text-align: center;
+    position: relative;
+}
+
+#home__app .right .phone-img{
+    width: 195px;
+    height: 340px;
+}
+
+.slick__slider__screnn{
+    position: absolute;
+    padding: 1.5% 29.3% 0 29.3%;
+    top: 0;
+    left: 24px;
+    width: 100%;
+}
+
+#home__app .slick__list img{
+    vertical-align: middle;
+    border-style: none;
+    width: 79.5%;
+    border-radius: 15px;
+    height: 324px;
+    border: none;
+}
+
+
